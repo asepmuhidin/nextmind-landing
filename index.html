@@ -1,15 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextMind - AI for Education</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextMind — Empowering Future with Intelligence</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif;}
+    body {background:#f9fafb; color:#222;}
+    header {background:#0f172a; color:#fff; text-align:center; padding:4rem 1rem;}
+    header h1 {font-size:2.5rem;}
+    header p {opacity:0.8; margin-top:0.5rem;}
+    section {padding:4rem 1.5rem; max-width:1000px; margin:auto;}
+    h2 {text-align:center; margin-bottom:1rem; color:#0f172a;}
+    .grid {display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); margin-top:2rem;}
+    .card {background:#fff; border-radius:12px; padding:1.5rem; box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+    .card h3 {color:#0f172a; margin-bottom:0.5rem;}
+    footer {background:#0f172a; color:#fff; text-align:center; padding:2rem 1rem; font-size:0.9rem;}
+    a {color:#38bdf8; text-decoration:none;}
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to NextMind</h1>
-        <p>Empowering education through AI</p>
-    </header>
+
+<header>
+  <h1>NextMind</h1>
+  <p>Empowering Future with Intelligence</p>
+</header>
+
+<section id="about">
+  <h2>Tentang Kami</h2>
+  <p style="text-align:center; max-width:800px; margin:auto; margin-top:1rem;">
+    NextMind adalah perusahaan teknologi yang bergerak di bidang media, pendidikan, kecerdasan buatan, dan robotika.
+    Kami berkomitmen menghadirkan solusi inovatif untuk memberdayakan masyarakat dalam menghadapi era digital dan otomatisasi.
+  </p>
+</section>
+
+<section id="vision">
+  <h2>Visi & Misi</h2>
+  <div class="card">
+    <h3>Visi</h3>
+    <p>Menjadi pelopor inovasi teknologi dan pendidikan berbasis kecerdasan buatan di Indonesia.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><p>💡 Menyediakan layanan edukasi modern berbasis teknologi AI dan robotika.</p></div>
+    <div class="card"><p>🌐 Mengembangkan media yang mendukung literasi digital dan teknologi.</p></div>
+    <div class="card"><p>🤝 Mendorong kolaborasi antara dunia pendidikan dan industri teknologi.</p></div>
+    <div class="card"><p>🧠 Membangun ekosistem pembelajaran masa depan yang inklusif dan adaptif.</p></div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Layanan Kami</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🤖 AI & Robotics Solutions</h3>
+      <p>Solusi kecerdasan buatan dan otomasi robotika untuk dunia pendidikan dan industri.</p>
+    </div>
+    <div class="card">
+      <h3>📚 Digital Learning Platform</h3>
+      <p>Platform pembelajaran interaktif berbasis teknologi AI untuk meningkatkan literasi digital.</p>
+    </div>
+    <div class="card">
+      <h3>📰 Smart Media & EduTech Content</h3>
+      <p>Produksi konten digital dan media edukatif berbasis teknologi.</p>
+    </div>
+    <div class="card">
+      <h3>🧪 Research & Innovation Lab</h3>
+      <p>Ruang kolaborasi untuk pengembangan riset dan inovasi teknologi.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Kontak</h2>
+  <div class="card" style="max-width:500px; margin:auto; text-align:center;">
+    <p><strong>Asep Muhidin, S.Kom., M.Kom.</strong></p>
+    <p>Perum Bumi Cikarang Makmur, Blok A.18/18<br>Sukadami, Cikarang Selatan, Bekasi - Jawa Barat</p>
+    <p>📞 WA: 0813-1680-6705</p>
+    <p>✉️ <a href="mailto:asep.muhidin@gmail.com">asep.muhidin@gmail.com</a></p>
+    <p>🌐 <a href="https://www.nextmind.id">www.nextmind.id</a></p>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> NextMind — Empowering Future with Intelligence
+</footer>
+
+<script>
+  // JS minimal untuk update tahun otomatis
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
