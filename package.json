@@ -1,0 +1,21 @@
+{
+  "name": "nextmind-landing",
+  "version": "1.0.0",
+  "description": "Landing page for NextMind - Think forward, create the future.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "NextMind",
+    "landing page",
+    "web development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

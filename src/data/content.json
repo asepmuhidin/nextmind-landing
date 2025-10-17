@@ -1,0 +1,55 @@
+{
+  "brand": "NextMind",
+  "tagline": "Think forward, create the future",
+  "sections": {
+    "about": {
+      "title": "About Us",
+      "description": "NextMind is a technology company focused on media, education, artificial intelligence, and robotics. We are committed to delivering innovative solutions to empower society in facing the digital and automation era."
+    },
+    "vision": {
+      "title": "Vision & Mission",
+      "vision": "To be a pioneer in technology and education innovation based on artificial intelligence in Indonesia.",
+      "missions": [
+        "Provide modern education services based on AI and robotics technology.",
+        "Develop media that supports digital literacy and technology.",
+        "Encourage collaboration between the education sector and the technology industry.",
+        "Build an inclusive and adaptive future learning ecosystem."
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "offerings": [
+        {
+          "icon": "🤖",
+          "name": "AI & Robotics Solutions",
+          "description": "Artificial intelligence and robotics automation solutions for education and industry."
+        },
+        {
+          "icon": "📚",
+          "name": "Digital Learning Platform",
+          "description": "Interactive learning platform based on AI technology to enhance digital literacy."
+        },
+        {
+          "icon": "📰",
+          "name": "Smart Media & EduTech Content",
+          "description": "Production of digital content and educational media based on technology."
+        },
+        {
+          "icon": "🧪",
+          "name": "Research & Innovation Lab",
+          "description": "Collaboration space for research and technology innovation development."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "details": {
+        "name": "Asep Muhidin, S.Kom., M.Kom.",
+        "address": "Perum Bumi Cikarang Makmur, Blok A.18/18, Sukadami, Cikarang Selatan, Bekasi - Jawa Barat",
+        "phone": "📞 WA: 0813-1680-6705",
+        "email": "✉️ asep.muhidin@gmail.com",
+        "website": "🌐 www.nextmind.id"
+      }
+    }
+  }
+}
